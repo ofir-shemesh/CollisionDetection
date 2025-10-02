@@ -1,4 +1,4 @@
-package Main;
+package Dim1;
 
 public class Ray {
 	float point;
