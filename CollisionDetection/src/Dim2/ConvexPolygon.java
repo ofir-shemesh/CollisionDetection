@@ -6,8 +6,8 @@ public class ConvexPolygon {
 	private Vector2f[] points;
 	
 	public ConvexPolygon(Vector2f[] points) {
-		if (!isLegal(points)) {
-			//TODO: notConcave
+		if (isLegal(points)) {
+			this.points = points;
 		}
 	}
 	
